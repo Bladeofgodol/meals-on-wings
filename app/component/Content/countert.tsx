@@ -48,7 +48,7 @@ const Counter = () => {
   return (
     <div className="w-screen flex justify-center px-10 md:px-0 lg:px-20">
       <div
-        className="h-fit md:h-fit w-full flex-col justify-around flex gap-5 p-5 text-dodgerblue text-xl bg-gray-300 md:flex-col items-center md:justify-around shadow-lg rounded-lg md:p-10 m-20 "
+        className="h-fit md:h-fit w-full flex-col justify-around flex gap-5 p-5 text-dodgerblue text-xl bg-gray-300 md:flex-col items-center md:justify-around shadow-lg rounded-lg md:p-10"
         ref={ref}
       >
       <div className="text-4xl md:text-6xl font-bold text-gray-700">NUMBERS</div>
