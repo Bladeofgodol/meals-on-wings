@@ -3,7 +3,7 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 const Partners = () => {
   return (
-    <div className="w-screen flex justify-center py-16 flex-col  items-center">
+    <div className="w-screen flex h-1/2 justify-center pt-12 flex-col  items-center">
       <div className="text-4xl md:text-6xl font-bold text-gray-700">
         PARTNERS
       </div>

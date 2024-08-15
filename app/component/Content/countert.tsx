@@ -46,7 +46,7 @@ const Counter = () => {
   const count_cities = NumberCounterAbbreviator(12345678910, ref); // 0 to 100 count-up
 
   return (
-    <div className="w-screen flex justify-center px-10 md:px-0 lg:px-20">
+    <div className="w-screen flex h-1/2 justify-center px-10 md:px-0 lg:px-20">
       <div
         className="h-fit md:h-fit w-full flex-col justify-around flex gap-5 p-5 text-dodgerblue text-xl bg-gray-300 md:flex-col items-center md:justify-around shadow-lg rounded-lg md:p-10"
         ref={ref}
