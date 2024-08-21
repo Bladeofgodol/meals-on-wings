@@ -121,24 +121,24 @@ const Header = () => {
             } transform transition-transform duration-300 fixed top-0 right-0 h-fit w-fit bg-gradient-to-b bg-gray-900/90 from-black flex flex-col items-end`}
           >
             <button
-            className="text-white focus:outline-none hover:bg-black w-fit"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <svg
-              className="w-8 h-8"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              className="text-white focus:outline-none hover:bg-black w-fit"
+              onClick={() => setIsOpen(!isOpen)}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d={"M6 18L18 6M6 6l12 12"}
-              ></path>
-            </svg>
-          </button>
+              <svg
+                className="w-8 h-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d={"M6 18L18 6M6 6l12 12"}
+                ></path>
+              </svg>
+            </button>
             <a
               href="/"
               className="relative w-full lg:w-auto flex justify-center items-center h-12 lg:h-full transform hover:bg-black/75 duration-200 group "
@@ -188,7 +188,7 @@ const Header = () => {
             >
               <div className="text-white transform group-hover:scale-110 transition-transform duration-200 relative z-10 flex gap-5">
                 <QuestionAnswerIcon />
-                <h1 >CONTACT US</h1>
+                <h1>CONTACT US</h1>
               </div>
             </a>
           </div>

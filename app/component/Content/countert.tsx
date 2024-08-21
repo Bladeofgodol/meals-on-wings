@@ -46,35 +46,37 @@ const Counter = () => {
   const count_cities = NumberCounterAbbreviator(12345678910, ref); // 0 to 100 count-up
 
   return (
-    <div className="w-screen flex h-1/2 justify-center px-10 md:px-0 lg:px-20">
+    <div className="w-screen flex h-1/2 justify-center md:px-0 lg:px-20">
       <div
-        className="h-fit md:h-fit w-full flex-col justify-around flex gap-5 p-5 text-dodgerblue text-xl bg-gray-300 md:flex-col items-center md:justify-around shadow-lg rounded-lg md:p-10"
+        className="h-fit md:h-fit w-full flex-col justify-around flex gap-5 p-5  md:flex-col items-center md:justify-around md:p-10"
         ref={ref}
       >
-      <div className="text-4xl md:text-6xl font-bold text-gray-700">NUMBERS</div>
-        
+        <div className="text-4xl md:text-6xl font-bold text-gray-700">
+          NUMBERS
+        </div>
+
         <div className="flex justify-around gap-5 flex-col items-stretch md:flex-row w-full px-10">
-          <div className="md:w-60 w-full flex md:flex-col items-center">
-            <FastfoodIcon className="size-20 md:size-40 p-5 " />
+          <div className="shadow-lg rounded-lg px-10 md:px-0  gap-5 py-5 md:w-60 w-full flex md:flex-col items-center text-dodgerblue text-xl">
+            <FastfoodIcon className="size-20 md:size-24 p-5 " />
 
             <div className="flex flex-col justify-between md:items-center items-end w-full">
               <div className="md:text-3xl text-xl">{count_deliveries}</div>
               <div className="w-fit">DELIVERIES</div>
             </div>
           </div>
-          <div className="md:w-60 w-full flex md:flex-col items-center">
-            <PeopleIcon className="size-20 md:size-40 p-5" />
+          <div className="shadow-lg rounded-lg px-10 md:px-0  gap-5 py-5 md:w-60 w-full flex md:flex-col items-center text-dodgerblue text-xl">
+            <PeopleIcon className="size-20 md:size-24 p-5" />
             <div className="flex flex-col justify-between md:items-center items-end w-full">
               <div className="md:text-3xl text-xl">{count_users}</div>
               <div className="w-fit">USERS</div>
             </div>
           </div>
-          <div className="md:w-60 w-full flex md:flex-col justify-between items-center ">
+          <div className="shadow-lg rounded-lg px-10 md:px-0  gap-5 py-5 md:max-w-56 w-full flex md:flex-col justify-between items-center text-dodgerblue text-xl ">
             <Image
               src={Drone}
               alt="Description of image"
-              width={160}
-              height={160}
+              width={96}
+              height={96}
               objectFit="cover"
               quality={100}
               className="p-6 hidden md:inline-block static"
@@ -90,22 +92,22 @@ const Counter = () => {
               className="p-2 md:hidden static"
             />
 
-            <div className="flex flex-col justify-between md:items-center items-end w-full">
+            <div className="flex flex-col justify-between md:items-center items-end w-full ">
               <div className="md:text-3xl text-xl">{count_drones}</div>
 
               <div className="w-fit">DRONES</div>
             </div>
           </div>
-          <div className="md:w-60 w-full flex md:flex-col items-center">
-            <HandshakeIcon className="size-20 md:size-40 p-5" />
+          <div className="shadow-lg rounded-lg px-10 md:px-0  gap-5 py-5 md:w-60 w-full flex md:flex-col items-center text-dodgerblue text-xl">
+            <HandshakeIcon className="size-20 md:size-24 p-5" />
             <div className="flex flex-col justify-between md:items-center items-end w-full">
               <div className="md:text-3xl text-xl">{count_partners}</div>
 
               <div className="w-fit">PARTNERS</div>
             </div>
           </div>
-          <div className="md:w-60 w-full flex md:flex-col items-center">
-            <LocationCityIcon className="size-20 md:size-40 p-5" />
+          <div className="shadow-lg rounded-lg px-10 md:px-0  gap-5 py-5 md:w-60 w-full flex md:flex-col items-center text-dodgerblue text-xl  ">
+            <LocationCityIcon className="size-20 md:size-24 p-5" />
             <div className="flex flex-col justify-between md:items-center items-end w-full">
               <div className="md:text-3xl text-xl">{count_cities}</div>
               <div className="w-fit">CITIES</div>

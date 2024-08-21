@@ -17,11 +17,11 @@ export default function Home() {
       <div className="snap-start md:h-screen">
         <Locations />
       </div>
-      <div className="snap-start md:h-screen">
+      <div className="snap-start h-screen">
         <Partners />
         <Counter />
       </div>
-      <div className="snap-start m-0">
+      <div className="snap-start max-h-screen min-h">
         <Footer />
       </div>
     </main>
