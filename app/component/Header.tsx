@@ -55,15 +55,7 @@ const Header = () => {
             <h1>JOIN US</h1>
           </div>
         </a>
-        <a
-          href="/about"
-          className="relative w-full flex justify-center items-center h-full overflow-hidden transform hover:bg-black/75  duration-200 group"
-        >
-          <div className="text-white transform group-hover:scale-110 transition-transform duration-200 relative z-10 gap-5 flex">
-            <InfoIcon />
-            <h1>ABOUT</h1>
-          </div>
-        </a>
+
         <a
           href="/contact"
           className="relative w-full flex justify-center items-center h-full overflow-hidden transform hover:bg-black/75  duration-200 group"
@@ -173,15 +165,7 @@ const Header = () => {
                 <h1>JOIN US</h1>
               </div>
             </a>
-            <a
-              href="/about"
-              className="relative w-full lg:w-auto flex justify-center items-center h-12 lg:h-full transform hover:bg-black/75 duration-200 group"
-            >
-              <div className="text-white transform group-hover:scale-110 transition-transform duration-200 relative z-10 gap-5 flex">
-                <InfoIcon />
-                <h1>ABOUT</h1>
-              </div>
-            </a>
+            
             <a
               href="/contact"
               className="relative w-full lg:w-auto flex justify-center items-center h-12 lg:h-full transform hover:bg-black/75 duration-200 group"

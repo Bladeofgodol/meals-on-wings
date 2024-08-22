@@ -1,6 +1,23 @@
 "use client";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import Partner1 from "../../../public/image/partner 1.png"
+import Partner2 from "../../../public/image/partner 2.png"
+import Partner3 from "../../../public/image/partner 3.png"
+import Partner4 from "../../../public/image/partner 4.png"
+
+
+const Partner = ({ Source }: any) => {
+  return(<div className="w-80 h-40 relative ">
+    <Image  
+      src={Source}
+      alt="Partner"
+      layout="fill"
+      objectFit="contain"
+      className="flex justify-center"
+    />
+  </div>)
+}
 const Partners = () => {
   return (
     <div className="w-screen flex h-1/2 justify-center pt-12 flex-col  items-center">
@@ -10,26 +27,10 @@ const Partners = () => {
 
       <div className="w-full flex md:px-10 lg:px-20 py-10">
         <Marquee className="marquee" autoFill>
-          <div className="w-full md:w-fit h-fit relative md:px-10 bg-slate-600">
-            <Image
-              src="/image/icon.png"
-              alt="Description of image"
-              width={400}
-              height={20}
-              objectFit="cover"
-              quality={100}
-            />
-            </div>
-            <div className="w-fit h-40 relative px-10">
-            <Image
-              src="/image/icon.png"
-              alt="Description of image"
-              width={400}
-              height={20}
-              objectFit="cover"
-              quality={100}
-            />
-          </div>
+          <Partner Source={Partner1} />
+          <Partner Source={Partner2} />
+          <Partner Source={Partner3} />
+          <Partner Source={Partner4} />
         </Marquee>
       </div>
     </div>
