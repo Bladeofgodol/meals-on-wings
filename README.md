@@ -30,5 +30,5 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deployed on Vercel
-link - [meals-on-wings-5mrv-ok0ypcyoi-bladeofgodols-projects.vercel.app] (meals-on-wings-5mrv-ok0ypcyoi-bladeofgodols-projects.vercel.app)
+link - [meals-on-wings-5mrv-ok0ypcyoi-bladeofgodols-projects.vercel.app](meals-on-wings-5mrv-ok0ypcyoi-bladeofgodols-projects.vercel.app)
 
