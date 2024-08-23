@@ -30,8 +30,8 @@ const About = () => {
             <div className="Bold text-lg lg:text-2xl font-bold text-slate-800">
               At Meals on Wings
             </div>
-            we're redefining the way you experience food delivery. Founded with
-            a passion for innovation and a love for good food, we're a team of
+            we&#39;re redefining the way you experience food delivery. Founded with
+            a passion for innovation and a love for good food, we&#39;re a team of
             tech enthusiasts, foodies, and dreamers who believe that the future
             of delivery is airborne.
           </div>
